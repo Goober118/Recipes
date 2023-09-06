@@ -5,6 +5,9 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 100px;
+    border: 5px;
+    border-color: black;
+    background-image: radial-gradient(rgb(253, 253, 253), rgb(189, 101, 0))
 }
 
 h1 {
@@ -13,8 +16,47 @@ h1 {
     text-align: center;
     margin: 0px;
     color: black
+    
 }
 
-img {
-    margin: 0px;
+.Container {
+    display: flex;
 }
+
+.Brand {
+    margin: 5%;
+}
+
+.Rows {
+    width: 75%;
+}
+
+.Row {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(189, 101, 0);
+}
+
+.Row img {
+    size: 200%;
+    margin: 10px;
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 50px;
+    border-color: gray
+}
+
+.Row p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    margin: 10px;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
