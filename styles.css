@@ -51,6 +51,7 @@ h1 {
     font-size: 50px;
     margin: 10px;
     text-align: left;
+    background-image: linear-gradient( to right, white, azure, transparent);
 }
 
 .center {
@@ -60,3 +61,19 @@ h1 {
     width: 50%;
 }
 
+.A {
+    background-position: 10%;
+    background-image: url(Explosion.jpg);
+    background-size: 100%;
+}
+
+.B {
+    background-image: url(Blue\ Meth.avif);
+    background-size: 100%;
+}
+
+.C {
+    background-image: url(Hostages.jfif);
+    background-size: 100%;
+    background-position: 5%;
+}
